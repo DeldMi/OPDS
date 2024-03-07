@@ -37,6 +37,6 @@
     <content type="text">Livro de Teste2.</content>
     <link rel="http://opds-spec.org/acquisition"
           href="https://www.trt4.jus.br/portais/media/111485/vantagem_pdf.pdf"
-          type="application/pdf+zip"/>
+          type="application/pdf"/>
   </entry>
 </fees>
