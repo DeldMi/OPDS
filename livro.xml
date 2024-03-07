@@ -1,14 +1,27 @@
-<feed>
-<entry>
-  <title>Nome do Livro</title>
-  <id>IdentificadorUnicoDoLivro</id>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>SeuIdentificadorUnicoAqui</id>
+  <title>Nome do Catálogo OPDS</title>
   <updated>2024-03-07T00:00:00Z</updated>
   <author>
-    <name>Autor do Livro</name>
+    <name>Seu Nome</name>
   </author>
-  <content type="text">Descrição breve do livro.</content>
-  <link rel="http://opds-spec.org/acquisition"
-        href="http://seusite.com/livros/livro1.epub"
-        type="application/epub+zip"/>
-</entry>
+  <link rel="self" href="http://seusite.com/caminho_para_catalogo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <!-- Adicione suas entradas de livros aqui -->
+
+  <entry>
+    <title>Nome do Livro</title>
+    <id>IdentificadorUnicoDoLivro</id>
+    <updated>2024-03-07T00:00:00Z</updated>
+    <author>
+      <name>Autor do Livro</name>
+    </author>
+    
+    <content type="text">Descrição breve do livro.</content>
+    <link rel="http://opds-spec.org/acquisition"
+          href="http://seusite.com/livros/livro1.epub"
+          type="application/epub+zip"/>
+  </entry>
 </fees>
