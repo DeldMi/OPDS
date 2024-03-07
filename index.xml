@@ -8,7 +8,14 @@
   <author>
     <name>Seu Nome</name>
   </author>
-  <link rel="self" href="http://seusite.com/caminho_para_catalogo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+      <link rel="http://opds-spec.org/image"
+        href="https://crates.io/assets/cargo.png"
+        type="image/png"/>
+  <link rel="http://opds-spec.org/image/thumbnail"
+        href="https://crates.io/assets/cargo.mini.png"
+        type="image/png"/>
+  <link rel="self" href="http://seusite.com/caminho_para_catalogo.xml"
+        type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <!-- Adicione suas entradas de livros aqui -->
 
       <entry>
