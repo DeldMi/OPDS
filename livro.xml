@@ -1,3 +1,4 @@
+<feed>
 <entry>
   <title>Nome do Livro</title>
   <id>IdentificadorUnicoDoLivro</id>
@@ -10,3 +11,4 @@
         href="http://seusite.com/livros/livro1.epub"
         type="application/epub+zip"/>
 </entry>
+</fees>
