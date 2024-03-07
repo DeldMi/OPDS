@@ -15,6 +15,9 @@
   <title>Categoria de Livros1</title>
   <id>Grupo1</id>
   <updated>2024-03-07T00:00:00Z</updated>
+             <link rel="http://opds-spec.org/image"
+        href="https://crates.io/assets/cargo.png"
+        type="image/png"/>
   <link rel="subsection"
         href="https://raw.githubusercontent.com/DeldMi/OPDS/main/livro.xml"
         type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
