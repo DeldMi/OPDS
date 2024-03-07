@@ -10,4 +10,20 @@
   </author>
   <link rel="self" href="http://seusite.com/caminho_para_catalogo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <!-- Adicione suas entradas de livros aqui -->
+
+      <entry>
+  <title>Categoria de Livros1</title>
+  <id>Grupo1</id>
+  <updated>2024-03-07T00:00:00Z</updated>
+  <link rel="subsection"
+        href="https://raw.githubusercontent.com/DeldMi/OPDS/main/livro.xml"
+        type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>      <entry>
+  <title>Categoria de Livros2</title>
+  <id>Grupo1</id>
+  <updated>2024-03-07T00:00:00Z</updated>
+  <link rel="subsection"
+        href="https://raw.githubusercontent.com/DeldMi/OPDS/main/ex.xml"
+        type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
 </feed>
