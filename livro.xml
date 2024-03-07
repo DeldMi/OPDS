@@ -12,6 +12,8 @@
         type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <!-- Adicione suas entradas de livros aqui -->
 
+
+
   <entry>
     <title>Teste 01</title>
     <id>Grupo1</id>
@@ -34,9 +36,30 @@
       <name>Autor2 Andre Felipe</name>
     </author>
     
-    <content type="text">Livro de Teste2.</content>
+    <content>Livro de Teste2.</content>
     <link rel="http://opds-spec.org/acquisition"
           href="https://www.trt4.jus.br/portais/media/111485/vantagem_pdf.pdf"
           type="application/pdf"/>
   </entry>
+
+      
+      <entry>
+  <title>Nome do Livro3</title>
+  <id>IdentificadorUnicoDoLivro</id>
+  <updated>2024-03-07T00:00:00Z</updated>
+  <author>
+    <name>Autor do Livro</name>
+  </author>
+  <content type="text">Descrição breve do livro.</content>
+  <link rel="http://opds-spec.org/image"
+        href="http://seusite.com/capas/livro1.jpg"
+        type="image/jpeg"/>
+  <link rel="http://opds-spec.org/image/thumbnail"
+        href="http://seusite.com/capas/livro1_mini.jpg"
+        type="image/jpeg"/>
+  <link rel="http://opds-spec.org/acquisition"
+        href="http://seusite.com/livros/livro1.epub"
+        type="application/epub+zip"/>
+</entry>
+
 </fees>
