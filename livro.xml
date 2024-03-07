@@ -1,0 +1,12 @@
+<entry>
+  <title>Nome do Livro</title>
+  <id>IdentificadorUnicoDoLivro</id>
+  <updated>2024-03-07T00:00:00Z</updated>
+  <author>
+    <name>Autor do Livro</name>
+  </author>
+  <content type="text">Descrição breve do livro.</content>
+  <link rel="http://opds-spec.org/acquisition"
+        href="http://seusite.com/livros/livro1.epub"
+        type="application/epub+zip"/>
+</entry>
