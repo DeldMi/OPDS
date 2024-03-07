@@ -6,22 +6,37 @@
   <title>Nome do Catálogo OPDS</title>
   <updated>2024-03-07T00:00:00Z</updated>
   <author>
-    <name>Seu Nome</name>
+    <name> Autor1 Abdre Felipe</name>
   </author>
-  <link rel="self" href="http://seusite.com/caminho_para_catalogo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="self" href="http://seusite.com/caminho_para_catalogo.xml" 
+        type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <!-- Adicione suas entradas de livros aqui -->
 
   <entry>
-    <title>Nome do Livro</title>
-    <id>IdentificadorUnicoDoLivro</id>
+    <title>Teste 01</title>
+    <id>Grupo1</id>
     <updated>2024-03-07T00:00:00Z</updated>
     <author>
-      <name>Autor do Livro</name>
+      <name>Autor2 Andre Felipe</name>
     </author>
     
-    <content type="text">Descrição breve do livro.</content>
+    <content type="text">Livro de Teste.</content>
     <link rel="http://opds-spec.org/acquisition"
-          href="http://seusite.com/livros/livro1.epub"
-          type="application/epub+zip"/>
+          href="https://www.trt4.jus.br/portais/media/111485/vantagem_pdf.pdf"
+          type="application/pdf+zip"/>
+  </entry>
+      
+  <entry>
+    <title>Teste 02</title>
+    <id>Grupo3</id>
+    <updated>2024-03-07T00:00:00Z</updated>
+    <author>
+      <name>Autor2 Andre Felipe</name>
+    </author>
+    
+    <content type="text">Livro de Teste2.</content>
+    <link rel="http://opds-spec.org/acquisition"
+          href="https://www.trt4.jus.br/portais/media/111485/vantagem_pdf.pdf"
+          type="application/pdf+zip"/>
   </entry>
 </fees>
